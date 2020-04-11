@@ -1,0 +1,697 @@
+/*CSS Document */
+
+.siteContainer {
+  
+  width: 300px;
+}
+
+#promoText4 {
+  width: 330px;
+  background-image: url(../images/Promo_Image_bckg_2_smallVersion.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-left: 20px;
+}
+
+#promoText4 h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 150px;
+  
+  line-height: 36px;
+}
+#promoText4 p {
+  color: white;
+  
+  line-height: 18px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 14px;
+
+}
+#promoText4 a {
+  border: solid 1px #fcfcf8;
+  color: white;
+  font-size: 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+  
+
+}
+#original {
+  margin-top: 30px;
+  margin-left: 30px;
+ 
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-iteration-count: 1;
+}
+.originalText {
+  width: 300px;
+  margin-right: 20px;
+  
+  text-align: center;
+  margin-top: 50px;
+}
+
+.originalText h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+  width: 300px;
+}
+.originalText p {
+  font-size: 14px;
+  color: #ce9f66;
+  line-height: 18px;
+  width: 300px;
+}
+#serve {
+  text-align: center;
+  margin-top: 30px;
+  background-image: url(../images/change.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 340px;
+  color: white;
+  height: 340px;
+  margin-left: 20px;  
+  
+}
+#serve h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  color: white;
+  width: 300px;
+}
+#serve p {
+  width: 300px;
+  line-height: 18px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: black;
+
+}
+#serve a {
+  font-size: 12px;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  padding: 10px;
+  color:white;
+}
+#icons {
+  display: flex;
+  flex-direction: row;
+  
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  animation-duration: 1s;
+  animation-delay: 2s;
+
+}
+#icons img {
+  width: 100px;
+  margin-left: 20px;
+  padding-right: 30px;
+}
+#icons h4 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: white;
+}
+#icons p {
+  font-size: 14px;
+  color: #ce9f66;
+  margin-top: 7px;
+
+}
+/* animation Rollin */
+@-webkit-keyframes rollIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes rollIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.rollIn {
+  -webkit-animation-name: rollIn;
+  animation-name: rollIn;
+}
+/* close animation rollIn */
+/* animation flash start here */
+@-webkit-keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+.flash {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+}
+/* End animation flash */
+
+#discover {
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 34px;
+}
+#discover h3 {
+ width: 300px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+#discover p{
+  font-size: 14px;
+  color: #ce9f66;
+  line-height: 16px;
+  width: 300px;
+
+}
+
+@media screen and (min-width: 768px) {
+
+.siteContainer {
+  
+  width: 760px;
+ 
+}
+
+
+#promoText4 {
+  width: 760px;
+ 
+  background-image: url(../images/Promo_Image_bckg_2_smallVersion.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 140px;
+  padding-bottom: 120px;
+}
+#promo4 {
+  
+}
+#promoText4 h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 150px;
+  padding-left: 40px;
+  line-height: 36px;
+}
+#promoText4 p {
+  color: white;
+  padding-left: 40px;
+  line-height: 18px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 16px;
+
+}
+#promoText4 a {
+  border: solid 2px #fcfcf8;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-left: 40px;
+
+}
+#original {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20px;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-iteration-count: 1;
+}
+.originalText {
+  width: 500px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+.originalText h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+  width: auto;
+  padding-top: 40px;
+}
+.originalText p {
+  font-size: 14px;
+  color: #ce9f66;
+  line-height: 18px;
+  width: auto;
+}
+#serve {
+  text-align: center;
+  margin-top: 30px;
+  background-image: url(../images/change.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 300px;
+  color: white;
+  width: auto;
+}
+#serve h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  color: white;
+  width: auto;
+}
+#serve p {
+  width: 400px;
+  margin-left: 200px;
+  line-height: 18px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: black;
+}
+#serve a {
+  font-size: 12px;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  padding: 10px;
+  color:white;
+}
+#icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  animation-duration: 1s;
+  animation-delay: 2s;
+
+}
+#icons img {
+  width: 100px;
+}
+#icons h4 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: white;
+}
+#icons p {
+  font-size: 14px;
+  color: #ce9f66;
+  margin-top: 7px;
+
+}
+/* animation Rollin */
+@-webkit-keyframes rollIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes rollIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.rollIn {
+  -webkit-animation-name: rollIn;
+  animation-name: rollIn;
+}
+/* close animation rollIn */
+/* animation flash start here */
+@-webkit-keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+.flash {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+}
+/* End animation flash */
+
+#discover {
+  margin-top: 30px;
+  text-align: center;
+}
+#discover h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  width: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#discover p{
+  font-size: 14px;
+  color: #ce9f66;
+  line-height: 16px;
+  width: auto;
+}
+
+}
+
+@media screen and (min-width: 938px) {
+.siteContainer {
+  margin: 0 auto;
+  width: 980px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+/* About us Page */
+
+#promoText4 {
+  width: 980px;
+ 
+  background-image: url(../images/Promo_Image_bckg_2_smallVersion.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 140px;
+  padding-bottom: 120px;
+}
+#promo4 {
+  
+}
+#promoText4 h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 150px;
+  padding-left: 40px;
+  line-height: 36px;
+}
+#promoText4 p {
+  color: white;
+  padding-left: 40px;
+  line-height: 18px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 16px;
+
+}
+#promoText4 a {
+  border: solid 2px #fcfcf8;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-left: 40px;
+
+}
+#original {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20px;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-iteration-count: 1;
+}
+.originalText {
+  width: 500px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+.originalText h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+  width: auto;
+  padding-top: 40px;
+}
+.originalText p {
+  font-size: 14px;
+  color: #ce9f66;
+  line-height: 18px;
+  width: auto;
+}
+#serve {
+  text-align: center;
+  margin-top: 30px;
+  background-image: url(../images/change.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 300px;
+  color: white;
+  width: auto;
+}
+#serve h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  color: white;
+  width: auto;
+}
+#serve p {
+  width: 400px;
+  margin-left: 300px;
+  line-height: 18px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: black;
+}
+#serve a {
+  font-size: 12px;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  padding: 10px;
+  color:white;
+}
+#icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  animation-duration: 1s;
+  animation-delay: 2s;
+
+}
+#icons img {
+  width: 100px;
+}
+#icons h4 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: white;
+}
+#icons p {
+  font-size: 14px;
+  color: #ce9f66;
+  margin-top: 7px;
+
+}
+/* animation Rollin */
+@-webkit-keyframes rollIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes rollIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.rollIn {
+  -webkit-animation-name: rollIn;
+  animation-name: rollIn;
+}
+/* close animation rollIn */
+/* animation flash start here */
+@-webkit-keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+.flash {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+}
+/* End animation flash */
+
+#discover {
+  margin-top: 30px;
+  text-align: center;
+}
+#discover h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  width: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#discover p{
+  font-size: 14px;
+  color: #ce9f66;
+  line-height: 16px;
+  width: auto;
+}
+
+}

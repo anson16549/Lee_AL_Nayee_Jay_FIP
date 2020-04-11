@@ -1,0 +1,305 @@
+.banner-img img
+{
+
+ padding-top: 150px;
+ 
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 948px) {
+
+
+.banner-img img
+{
+padding-left: 90px;
+ padding-top: 50px;
+  width: 60%;
+}
+
+
+
+.banner
+{
+  position: relative;
+}
+}
+
+@media screen and (min-width: 768px) {
+
+.banner-img img
+{
+padding-left: 90px;
+ padding-top: 80px;
+ width: 70%;
+}
+}
+@media screen and (min-width: 938px) {
+
+.banner-title{
+  width: 30%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.banner-title h2
+{
+  font-size: 55px;
+ background: #FDC830;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #fff;
+  line-height: 70px;
+  padding: 0px 10px 0 10px;
+}
+}
+
+
+
+.beer-prod
+{
+  padding: 100px 0;
+}
+
+.beer-prod p{
+  color: white;
+}
+.beer-box
+{
+  margin: 80px 0;
+}
+
+.title-style h2
+{
+  padding: 40px 0;
+}
+
+.title-style
+{
+  margin: 0 auto 80px;
+  height: 120px;
+  width: 80%;
+  max-width: 700px;
+  background: #fff;
+  position: relative;
+  box-shadow: 0 4px 5px 0 rgba(0,0,50,0.5);
+}
+
+.title-style::after
+{
+  content: '';
+  height: 100px;
+  width: 200px;
+ background: #FDC830;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  z-index: -1;
+
+}
+
+
+.title-style::before
+{
+  content: '';
+  height: 100px;
+  width: 200px;
+ background: #FDC830;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: Arial, sans-serif;
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  z-index: -1;
+
+}
+/*start with mobile version*/
+#iconArea {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+}
+#iconArea p {
+  margin-top: 13px;
+  margin-left: 20px;
+}
+.productArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imagePromo {
+  width: 70%;
+}
+.galleryText h3 {
+  color: white;
+  font-size: 20px;
+  margin-left: 60px;
+}
+.galleryText p {
+  font-size: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.imagePromo2 {
+  width: 70%;
+}
+
+.galleryText2 h3 {
+  color: white;
+  font-size: 20px;
+  margin-left: 60px;
+}
+.galleryText2 p {
+  font-size: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+.galleryText p {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.galleryText2 p {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+}
+@media screen and (min-width: 938px) {
+
+.productArea {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.imagePromo {
+  width: 70%;
+}
+.galleryImage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+.galleryText {
+  margin-top: 250px;
+}
+.galleryText h3 {
+  color: white;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.galleryText p {
+  font-size: 20px;
+}
+
+
+.productArea2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.imagePromo2 {
+  width: 70%;
+}
+.galleryImage2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+.galleryText2 {
+  margin-top: 250px;
+}
+.galleryText2 h3 {
+  color: white;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.galleryText2 p {
+  font-size: 20px;
+}
+
+}
+/* mobile */
+.lightBox {
+  display: none;
+}
+@media screen and (min-width: 938px) {
+
+.lightBox {
+  width: 100%;
+  position: absolute;
+  height: 900px;
+  z-index: 2;
+  display: none;
+  top: 800px;
+  background-color: rgba(0,0,0,0.9);
+  left:0;
+}
+
+#infroArea {
+  width: 500px;
+  overflow: hidden;
+  margin: auto;
+
+}
+
+.infroCon img {
+  position: absolute;
+  top: -3000px;
+
+}
+.infroCon {
+  height: 500px;
+}
+
+#infroArea img.currentImage {
+  position: absolute;
+  top: 300px;
+
+}
+.lightBox i {
+  margin: auto;
+  display: block;
+  font-size: 8em;
+  color: white;
+  cursor: pointer;
+}
+.showLightBox {
+  display: flex;
+
+}
+
+.preventScrolling {
+  height: 100%;
+  overflow: hidden;
+}
+#closeLightBox {
+  font-size: 40px;
+  position: absolute;
+  top: 250px;
+  right: 100px;
+  color: white;
+}
+
+}

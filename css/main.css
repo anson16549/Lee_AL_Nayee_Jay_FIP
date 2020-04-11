@@ -1,0 +1,248 @@
+@charset "UTF-8";
+
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333;
+}
+div, p, body, header, footer, section, article, nav, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+a:link, a:visited {
+  text-decoration: none;
+}
+a:hover, a:active {
+  text-decoration: none;
+}
+.hidden {
+  display: none;
+}
+#siteContainer {
+  margin: 0 auto;
+  max-width: 2000px;
+  min-width: 320px;
+   
+}
+
+#logo img{
+  width: 120px;
+  height: 120px;
+  margin-left: 10px;
+  top: 0;
+  content: "";
+
+}
+#mainHeader {
+  background-color: #191919;
+  width: 100%;
+  z-index: 3;
+  position: fixed;
+  max-width: 2000px;
+  min-width: 320px;
+  height: 150px;
+  opacity: 80%;
+}
+#logo {
+  display: block;
+  font-size: 16px;
+  padding: 20px;
+  float: left;
+}
+
+#mainNav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #191919;
+  
+  margin-top: 30px;
+}
+
+#mainNav ul li {
+  cursor: pointer;
+}
+#mainNav ul li a {
+  margin-top: 20px;
+  display: block;
+  padding: 5px;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #fff;
+  
+}
+#mainNav ul li a:hover {
+  color: #d6c19c;
+}
+.current {
+  color: #c19d5e;
+}
+.menu-btn:hover {
+  color: #d6c19c;
+}
+.menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+.menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 40px 20px;
+  position: relative;
+  user-select: none;
+  margin-right: 20px;
+}
+ .navicon {
+  background: #fff;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+.navicon::before {
+  top: 5px;
+  background: #fff;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+.navicon::after {
+  top: -5px;
+  background: #fff;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+.menu-btn {
+  display: none;
+}
+.menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+.menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+.menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+.menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+.menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+@media screen and (min-width: 938px) /* Desktop version for navigation*/ {
+  #mainNav ul li {
+  float: left;
+  }
+  #mainNav ul li a{
+    padding-right: 30px;
+    padding-top: 23px;
+    color: #fff;
+  }
+  #mainNav .current {
+    color: #c19d5e;
+    }
+  .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .menu-icon {
+    display: none;
+  }
+}
+/* Header End here */
+/* Mobile version */
+#footerNav{
+  padding-top: 20px;
+  background-color: #FFEFBA; 
+  background: -webkit-linear-gradient(, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(,#FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: grid;
+  justify-content: center;
+  padding-bottom: 30px;
+  text-align: center;
+}
+#footerNav h4 {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #535037;
+  margin-bottom: 7px;
+}
+#footerNav p {
+  font-size: 13px;
+ 
+}
+
+.info1 ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+  
+}
+.info1 ul li {
+  font-size: 13px;
+  cursor: pointer;
+}
+.info1 ul li a {
+  color: #535037;
+  line-height: 20px;
+  
+}
+.info1 ul li a:hover {
+  color: #789;
+
+}
+.info2 {
+  line-height: 20px;
+  color: #535037;
+  }
+.info2 h4 {
+  
+}
+.info2 p {
+  margin-bottom: 20px;
+}
+
+.info3 ul {
+  padding: 0;
+  list-style-type: none;
+  margin-top: 30px;
+ 
+}
+.info3 ul li {
+  display: inline;
+}
+
+#copyRight {
+  margin-top: 15px;
+  color: #535037;
+  }
+  .info1, .info2, .info3 {
+    width: 300px
+  }
+
+
+/* Desktop version */
+@media screen and (min-width: 938px) {
+#footerNav {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+}
+
+}
+  

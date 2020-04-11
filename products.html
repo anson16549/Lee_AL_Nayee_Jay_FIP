@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Our Beers</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/ourbeers.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body style="background-color: black">
+
+	<div id="siteContainer">
+        	<header id="mainHeader">
+                <nav id="mainNav">
+                    <div id="logo"><a href="#"><img src="images/logo2.svg" alt="Logo"></a></div><!-- Close logo-->
+                     <input class="menu-btn" type="checkbox" id="menu-btn"/>
+                        <label class="menu-icon" for="menu-btn">
+                         <span class="navicon"></span>
+             </label>
+                    <h2 class="hidden">Main navigation</h2>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About </a></li>
+        <li><a href="#" class="current">Products</a></li>
+        <li><a href="Process.html" >Advertisements</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+       </nav><!-- Close mainNav -->
+    </header><!-- Close mainHeader -->
+	<section class="header">
+		<div class="banner">
+			<h2 class="hidden">Banner</h2>
+			<div class="banner-img">
+				<h3 class="hidden">Banner-Image</h3>
+				<picture>
+					<source media="(max-width:600px)" srcset="images/beach_smallVersion.png">
+						<img  src="images/beach.jpg" alt="productImage">
+				</picture>
+			</div>
+
+			
+
+		</div>
+
+
+
+
+	<section class="beer-prod">
+		<h2 class="hidden">Our Beers</h2>
+		<div class="container">
+			<div class="beer-box">
+				<div class="title-style text-center">
+					<h2>OUR BEERS</h2>
+				</div>
+
+				</div>
+				<div class="lightBox">
+					<i id="arrowLeft" class="fa fa-angle-left galleryArrow"></i>
+				<div id="infroArea">
+					<ul class="infroCon">
+					<li><img class="lightBoxImage currentImage" src="images/infro1.png" alt="infro" width="700"></li>
+					<li><img class="lightBoxImage" src="images/infro2.png"  alt="infro" width="700"></li>
+					<li><img class="lightBoxImage" src="images/infro3.png"  alt="infro" width="700"></li>
+					<li><img class="lightBoxImage" src="images/infro4.png"  alt="infro" width="700"></li>
+					<li><img class="lightBoxImage" src="images/infro5.png"  alt="infro" width="700"></li>
+					<li><img class="lightBoxImage" src="images/infro6.png"  alt="infro" width="700"></li>
+					</ul>
+				</div>
+				<i id="arrowRight" class="fa fa-angle-right galleryArrow"></i>
+				<div id="closeLightBox">X</div>
+			</div>
+				<div class="row">
+					<h2 class="hidden">Beers</h2>
+					<div class="productArea">
+				<div id="bigArea">
+						<div id="iconArea">
+					<img src="images/system.png" width="50" height="50">
+					<p>More infro</p>
+						</div>
+					<div class="galleryImageCon">
+
+						<picture>
+							<source media="(max-width:600px)" srcset="images/product_small_black.jpg">
+								<img class="imagePromo" src="images/product_large_black.jpg" alt="productImage">
+						</picture>
+					</div>
+
+					<div class="galleryImage">
+						<img data-ref="product_large_black.jpg" data-count="0" class="imageArea" src="images/product_small_black.jpg" alt="blackImage">
+						<img data-ref="product_large_blonde.jpg" data-count="1" class="imageArea" src="images/product_small_blonde.jpg" alt="blondeImage">
+						<img data-ref="product_large_smooth.jpg" data-count="2" class="imageArea" src="images/product_small_smooth.jpg" alt="smoothImage">
+					</div>
+				</div>
+
+				<div class="galleryText">
+					<h3>Cold brewery with roasted</h3>
+					<p>Cold Garden Beverage Company is a Calgary-based microbrewery. A love of craft beer and a passing comment in a university classroom planted the idea years ago and the concept has been growing ever since. The brewery has put down roots in the vibrant community of Inglewood, hoping to breathe new life into what was once the brewing district of Calgary. Cold Garden brings a casual and eclectic vibe to the community, along with a lineup of traditional and more...eccentric beers. </p>
+					</div>
+				</div>
+
+				<div class="productArea2">
+					<div id="bigArea">
+				<div class="galleryImageCon2">
+
+					<picture>
+							<source media="(max-width:600px)" srcset="images/product_small_stout.jpg">
+								<img class="imagePromo2" src="images/product_big_stout.jpg" alt="productImage">
+						</picture>
+				</div>
+
+				<div class="galleryImage2">
+						<img data-source="product_big_stout.jpg" data-num="0" class="imageArea2" src="images/
+						product_small_stout.jpg" alt="stoutImage">
+						<img data-source="product_big_blonde2.jpg" data-num="1" class="imageArea2" src="images/product_small_blonde2.jpg" alt="blondeImage">
+						<img data-source="product_big_smooth2.jpg" data-num="2" class="imageArea2" src="images/product_small_smooth2.jpg" alt="smoothImage">
+					</div>
+				</div>
+				<div class="galleryText2">
+					<h3>Vanilla Cappuccino Porter</h3>
+					<p>A west coast, light bodied, hop forward, fruity IPA. One sip is like a citrusy fruit salad to the face, like making out with a cold pineapple on a hot day, and like running naked through the hop fields of the pacific North West. This beer can satisfy the alpha acid heads and the rookie swimmer who needs to give their toes a dip before jumping head first down the hop hole. Turn on, tune in, and hop out.</p>
+					</div>
+		</div>
+		</div>
+	</div>
+
+	</section>
+
+	 <footer id="mainFooter">
+    <div id="footerNav">
+      <nav class="info1">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About </a></li>
+        <li><a href="#" class="current">Products</a></li>
+        <li><a href="Process.html" >Advertisements</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="info2">
+        <h4>Contact info</h4>
+        <p>Our location:<br>
+         Toronto, ON.<br>
+        Phone: 226 - 123 - 1234.<br>
+        Email: lysol@gmail.com</p>
+
+      </div><!-- Close info2 -->
+      <div class="info3">
+        <h4>Social media</h4>
+        <ul id="socialmedia">
+          <li><a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook icon"></a></li>
+          <li><a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram icon"></a></li>
+          <li><a href="https://twitter.com/"><img src="images/twitter.png" alt="Twitter icon"></a></li>
+          <li><a href="https://www.youtube.com/"><img src="images/youtube.png" alt="Youtube icon"></a></li>
+
+        </ul>
+        <div id="copyRight">
+          <h5>Lysol - All Rights Reserved - 2020</h5>
+        </div><!-- Close copyRight -->
+      </div><!-- Close info3 -->
+
+
+
+    </div><!-- Close footerNav -->
+
+  </footer><!-- Close mainFooter -->
+<script src="js/main.js"></script>
+<script src="js/Product.js"></script>
+
+
+</body>
+</html>

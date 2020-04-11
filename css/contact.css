@@ -1,0 +1,236 @@
+
+#Container {
+  background-image: url(../images/guinness.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+
+}
+#Container h1{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  padding-top: 200px;
+}
+#Container h2{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+
+.contact-section{
+  background-color: black;
+  opacity: 70%;
+  
+}
+.border {
+  width: 100px;
+  height: 10px;
+  background: #34495e;
+  margin: 40px auto;
+}
+#BigBox {
+  color: white;
+  
+  
+}
+#BigBox h3 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#BigBox h4 {
+  text-align: center;
+  color: #80F9F3;
+}
+#BigBox p {
+  font-size: 17px;
+  text-align: center;
+  font-family: Arial;
+  font-style: italic;
+  padding-top: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+#BigBox h5{
+  margin-top: 20px;
+  
+}
+#BigBox h6{
+  margin-top: 20px;
+}
+
+.contact-form{
+  padding: 0 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.contact-form-text{
+  display: block;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #123;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+}
+.contact-form-text:hover{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+
+textarea.contact-form0text{
+  height: 120px;
+}
+
+.contact-form-btn{
+  float: left;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+ 
+}
+.contact-form-btn:hover{
+  background: #2980b9;  
+  
+}
+iframe {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  #BigBox h5{
+  margin-top: 20px;
+  text-align: center;
+}
+.contact-form {
+  margin-left: 240px;
+}
+  
+}
+@media screen and (min-width: 938px) {
+
+#Container {
+  background-image: url(../images/guinness.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: auto;
+}
+
+#Container h1{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  padding-top: 200px;
+}
+#Container h2{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+
+.contact-section{
+  background-color: black;
+  opacity: 70%;
+  width: auto;
+}
+.border {
+  width: 100px;
+  height: 10px;
+  background: #34495e;
+  margin: 40px auto;
+}
+#BigBox {
+  color: white;
+  
+  
+}
+#BigBox h3 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#BigBox h4 {
+  text-align: center;
+  color: #80F9F3;
+}
+#BigBox p {
+  font-size: 17px;
+  text-align: center;
+  font-family: Arial;
+  font-style: italic;
+  padding-top: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+#BigBox h5{
+  margin-top: 20px;
+}
+#BigBox h6{
+  margin-top: 20px;
+}
+
+.contact-form{
+  padding: 0 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding-left: 340px;
+}
+
+.contact-form-text{
+  display: block;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #123;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+}
+.contact-form-text:hover{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+
+textarea.contact-form0text{
+  height: 120px;
+}
+
+.contact-form-btn{
+  float: left;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+ 
+}
+.contact-form-btn:hover{
+  background: #2980b9;  
+  margin-bottom: 20px;
+}
+iframe {
+  width: 100%;
+}
+}
