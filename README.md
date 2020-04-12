@@ -13,8 +13,8 @@ Just an editor and Git!
 
 ### Author
 
-Anson Lee
-Jay Nayee
+1. Anson Lee
+2. Jay Nayee
 
 ### License
 This project is licensed under "Fanshawe Colledge"
